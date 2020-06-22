@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Screen / Kakao clone</title>
+    <link href="/https://use.fontawesome.com/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css">
+    <!--load all styles -->
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+
+<body>
+    <div class="staus-bar">
+        <div class="staus-bar_column">
+            <span class="status-bar__clock">01:27</span>
+        </div>
+        <div class="staus-bar_column">
+            <i class="far fa-clock"></i>
+            <i class="fas fa-volume-off"></i>
+            <i class="fas fa-wifi"></i>
+            <i class="fas fa-ban"></i>
+            <span class="status-bar__battery_level">100%</span>
+            <i class="fas fa-battery-full"></i>
+        </div>
+    </div>
+
+    <header class="chat_screen header">
+        <div class="friends__friend friend friend--md">
+            <div class="friend__column">
+                <img src="../images/woos.jpg" alt="" class="g-avatar friend__avatar" />
+                <div class="friend__content">
+                    <span class="friend__name">
+                        Woos
+                    </span>
+                </div>
+            </div>
+        </div>
+        <a href="chats.html"><i class="fas fa-arrow-left"></i></a>
+    </header>
+
+    <section>
+        <div class="chat_screen__text text">
+            <div class="text__content">
+                <div class="text__column">
+                    <img src="../images/woos.jpg" alt="" class="g-avatar friend__avatar" />
+                </div>
+                <div class="text__column">
+                    <span class="friend__name">
+                        Woos
+                    </span>
+                    <div class="text_box">
+                        현백 휴일 언제냐?
+                    </div>
+                    <div class="text__timestamp">
+                        12:00
+                    </div>
+                </div>
+            </div>
+            <div class="text__content">
+                <div class="text__column">
+                    <img src="../images/minbak.jpg" alt="" class="g-avatar friend__avatar" />
+                </div>
+                <div class="text__column">
+                    <span class="friend__name">
+                        Minbak
+                    </span>
+                    <div class="text_box">
+                        수토임!
+                    </div>
+                    <div class="text__timestamp">
+                        12:03
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chat_screen inputBox">
+            <input type="text" name="inputBox" value="내용을 입력하세요">
+            <button>전송</button>
+        </div>
+    </section>
+</body>
+
+</html>
